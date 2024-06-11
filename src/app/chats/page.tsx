@@ -1,12 +1,12 @@
+import Footer from "@/components/ui/Footer";
+import NavBar from "@/components/ui/NavBar";
 import React from "react";
-import NavBar from "../../components/NavBar";
-import Footer from "@/components/Footer";
 
 const page = () => {
   return (
     <>
       <NavBar />
-      <div>
+      <div className="bg-white text-gray-900">
         <h1>Chat List</h1>
         <ol>
           <li>Chat 1</li>
