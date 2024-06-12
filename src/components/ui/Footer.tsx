@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 py-8 text-white">
+    <footer className="bg-gray-900 py-8 w-full fixed bottom-0 text-white">
       <div className="container mx-auto flex flex-col items-center justify-between px-4">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between w-full">
           <Link href="/" passHref>
