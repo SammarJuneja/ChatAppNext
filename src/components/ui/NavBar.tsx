@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className="flex flex-row items-center justify-between p-4">
       <div className="flex flex-row items-center space-x-4">
-        <Link href="/" passHref>
+        <Link href="/greet" passHref>
           <button className="text-2xl font-bold">OpenChat</button>
         </Link>
         <p className="text-gray-500">
@@ -18,6 +18,7 @@ const NavBar = () => {
             Log In
           </button>
         </Link>
+        <Link href="login">hi</Link>
         <Link href="/signup" passHref>
           <button className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600">
             Sign Up
