@@ -19,10 +19,10 @@ const Footer = () => {
           <Link href="/home">
             <span>Home</span>
           </Link>
-          <Link href="/login">
+          <Link href="/auth/login">
             <span>Login</span>
           </Link>
-          <Link href="/register">
+          <Link href="/auth/register">
             <span>Register</span>
           </Link>
           <Link href="/tos">

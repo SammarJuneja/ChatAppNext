@@ -13,13 +13,12 @@ const NavBar = () => {
         </p>
       </div>
       <div className="flex flex-row items-center space-x-4">
-        <Link href="/login">
+        <Link href="/auth/login">
           <button className="px-4 py-2 border-2 border-blue-500 text-blue-500 rounded-md font-medium hover:bg-blue-600 hover:text-white">
             Log In
           </button>
         </Link>
-        <Link href="login">hi</Link>
-        <Link href="/signup" passHref>
+        <Link href="/auth/register" passHref>
           <button className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600">
             Sign Up
           </button>
